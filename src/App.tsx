@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Check, Calendar, Target, Users, BookOpen, TrendingUp, Clock, CheckCircle2 } from 'lucide-react';
-import LandingPage from './components/LandingPage';
+import { LandingPage } from './components/LandingPage';
 
 interface Task {
   id: number;
